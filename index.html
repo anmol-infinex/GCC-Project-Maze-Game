@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Maze Game</h1>
+        <div class="stats">
+            <span>Moves: <span id="moves">0</span></span>
+            <span>Time: <span id="timer">0</span>s</span>
+            <span>Level: <span id="level">1</span></span>
+        </div>
+        <canvas id="mazeCanvas"></canvas>
+        <div class="controls">
+            <button id="newGameBtn">New Game</button>
+            <button id="nextLevelBtn" disabled>Next Level</button>
+        </div>
+        <p class="instructions">Use Arrow Keys or WASD to move</p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
